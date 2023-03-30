@@ -5,7 +5,7 @@ from Datacamp Course: https://www.datacamp.com/courses/image-processing-in-pytho
 
 ### Setup
     
-    ```python
+```python
     import numpy as np
     import matplotlib.pyplot as plt
     from skimage import data
@@ -20,4 +20,3 @@ from Datacamp Course: https://www.datacamp.com/courses/image-processing-in-pytho
 Run on command prompt or terminal:
 
     pip install scikit-image
-    
