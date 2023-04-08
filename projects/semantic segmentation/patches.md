@@ -1,4 +1,7 @@
 
+converting images closes to divisible on 256 x 256
+cropping images to 256 x 256 (not resizing!)
+
 use patchify
 Title 1: 979 x 644 --> 768 x 512 --> 6
 Title 2: 509 x 544 --> 512 x 256 --> 2
