@@ -9,14 +9,14 @@ Vegetation: #FEDD3A
 Water: #E2A929
 Unlabeled: #9B9B9B
 
-## Dataset Images
-Images come in many sizes: 797x644, 509x544, 682x658, 1099x846, 1126x1058, 859x838, 1817x2061,  2149x1479​
+## Preprocess
+* Images come in many sizes: 797x644, 509x544, 682x658, 1099x846, 1126x1058, 859x838, 1817x2061,  2149x1479​
 
-Need to preprocess so we can capture all images in a single batch.
-cropt to a size divisible by 256 and extract patches of size 256x256
+* Need to preprocess so we can capture all images in a single batch.
+    => cropt to a size divisible by 256 and extract patches of size 256x256
 
-Masks are RGB and information provided as HEX color code.
-need to convert hex to rgb values and then convert rgb labels to integer values and then to one hot encoded
+* Masks are RGB and information provided as HEX color code.
+    => need to convert hex to rgb values and then convert rgb labels to integer values and then to one hot encoded
 
 ## Predict
 predicted (segmented) images need to converted back into original rgb colors
