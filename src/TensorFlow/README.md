@@ -30,6 +30,10 @@ doc: https://developers.google.com/codelabs/tensorflow-3-convolutions#0
 https://developers.google.com/codelabs/tensorflow-2-computervision#0
 
 code walk through: https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab2-Computer-Vision.ipynb
+a kernel: https://en.wikipedia.org/wiki/Kernel_(image_processing)
+
+Why should we normalize data for deep learning in Keras?
+https://stackoverflow.com/questions/48284427/why-should-we-normalize-data-for-deep-learning-in-keras
 
 ## TensorFlow - 3 Build convolutional neural networks (CNNs) to enhance computer vision
 https://developers.google.com/codelabs/tensorflow-3-convolutions#4
