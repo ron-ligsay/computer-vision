@@ -24,3 +24,19 @@ vidoe: https://www.youtube.com/watch?v=x_VrgWTKkiM&list=PLQY2H8rRoyvwWuPiWnuTDBH
 colab: https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab2-Computer-Vision.ipynb#scrollTo=2sKswgmaMenc
 repo: https://github.com/zalandoresearch/fashion-mnist
 doc: https://developers.google.com/codelabs/tensorflow-3-convolutions#0
+
+
+## TensorFlow - 2 Build computer vision models with TensorFlow
+https://developers.google.com/codelabs/tensorflow-2-computervision#0
+
+code walk through: https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab2-Computer-Vision.ipynb
+
+## TensorFlow - 3 Build convolutional neural networks (CNNs) to enhance computer vision
+https://developers.google.com/codelabs/tensorflow-3-convolutions#4
+
+## TensorFlow - 4 Build convolutional neural networks (CNNs) to enhance computer vision
+https://developers.google.com/codelabs/tensorflow-4-cnns#0
+
+
+## TensoFlow - 5 Build complex images with generative adversarial networks (GANs)
+https://developers.google.com/codelabs/tensorflow-5-compleximages#0
