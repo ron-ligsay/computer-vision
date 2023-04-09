@@ -44,3 +44,10 @@ https://developers.google.com/codelabs/tensorflow-4-cnns#0
 
 ## TensoFlow - 5 Build complex images with generative adversarial networks (GANs)
 https://developers.google.com/codelabs/tensorflow-5-compleximages#0
+
+
+## TensorFlow - 6 Build a neural network to classify text
+https://developers.google.com/codelabs/tensorflow-6-largecnns#0
+
+How to avoid overfitting
+A CNN that is trained to recognized images of cats or dogs (based on an old Kaggle challenge)
