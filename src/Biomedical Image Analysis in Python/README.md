@@ -1,6 +1,3 @@
-
-
-
 # Biomedical Image Analysis in Python - Datacamp
 https://campus.datacamp.com/courses/biomedical-image-analysis-in-python
 
