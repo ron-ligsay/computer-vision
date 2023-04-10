@@ -4,3 +4,4 @@
 *.gif
 *.svg
 *.mp4
+models/mask_detector.h5
