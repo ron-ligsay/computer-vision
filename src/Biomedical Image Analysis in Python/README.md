@@ -28,4 +28,8 @@ https://campus.datacamp.com/courses/biomedical-image-analysis-in-python
 * ImageIO
 * Numpy
 * SciPy
-* Matplotlib 
+* Matplotlib
+
+
+datasets
+- https://3dicomviewer.com/dicom-library/
