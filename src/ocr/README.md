@@ -7,3 +7,7 @@ PIL(Pillow) => Open an Image
 OpenCV => Change an Image
 Tessereact (PyTessereact) => OCR (Optical Character Recognition) an Image
 
+Requirements
+pillow
+opencv-python
+pytesseract
