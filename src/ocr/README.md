@@ -11,3 +11,10 @@ Requirements
 pillow
 opencv-python
 pytesseract
+
+##### Install Tesseract
+https://digi.bib.uni-mannheim.de/tesseract/
+downloaded version 	`tesseract-ocr-w64-setup-v4.1.0.20190314.exe`
+installed in 	`C:\Program Files\Tesseract-OCR\`
+added to PATH 	`C:\Program Files\Tesseract-OCR\`
+to check if installed properly     `tesseract --version`
