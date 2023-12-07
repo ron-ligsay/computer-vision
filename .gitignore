@@ -10,3 +10,5 @@ models/mask_detector.h5
 #Circle of Wallis dicoms
 data/dicom/circle_of_willis/  
 src/ocr/tesseract-ocr-w64-setup-v4.1.0.20190314.exe
+
+data/haarscascade/*

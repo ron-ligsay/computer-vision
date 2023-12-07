@@ -3,9 +3,9 @@ import cv2
 
 cap = cv2.VideoCapture(0)
 
-face_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('C:\\Users\\aky\\Documents\\Programs\\computer-vision\\data\\haarscascade\haarcascade_frontalface_default.xml')
 #face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +  'haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_eye.xml')
+eye_cascade = cv2.CascadeClassifier('C:\\Users\\aky\\Documents\\Programs\\computer-vision\\data\\haarscascade\\haarcascade_eye.xml')
 #eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +  'haarcascade_eye.xml')
 
 while True:
@@ -23,10 +23,10 @@ while True:
         roi_gray = gray[y:y+h, x:x+w]
         roi_color = frame[y:y+h, x:x+w]
         # Detecting the eyes
-        #eyes = eye_cascade.detectMultiScale(roi_gray, 1.3, 5)
+        eyes = eye_cascade.detectMultiScale(roi_gray, 1.3, 5)
         # Making a frame for the eyes
-        """  for (ex,ey,ew,eh) in eyes:
-            cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),3) """
+        for (ex,ey,ew,eh) in eyes:
+            cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),3) 
     # Display the resulting frame
     cv2.imshow('frame', frame)
 
