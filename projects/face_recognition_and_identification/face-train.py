@@ -46,13 +46,35 @@ for root, dirs, files in os.walk(image_dir):
             
 # print(y_labels)
 # print(x_train)
+
 file_path = os.path.join(os.getcwd(), "projects", "face_recognition_and_identification", "labels.pkl")
-print(file_path)
+# print(file_path)
+if not os.access(file_path, os.W_OK):
+    print(f"Error: Insufficient write permissions for {file_path}")
 try:
-    with open(file_path, 'wb') as f:
-        pickle.dump(labels_ids, f)
+    with open(file_path, 'wb') as f: #, encoding='utf-8'
+        # print(labels_ids)
+        print(f)
+        # print(type(f))
+        
+        #pickle.dump(labels_ids, f, pickle.HIGHEST_PROTOCOL)
+        
+        #f.write(pickle.dumps(labels_ids, pickle.HIGHEST_PROTOCOL))
+
+        data = pickle.dumps(labels_ids, pickle.HIGHEST_PROTOCOL)
+        f.write(data)
+
+        f.close()
 except OSError as e:
     print(f"OS error: {e}")
+
+# file_path = os.path.join(os.getcwd(), "projects", "face_recognition_and_identification", "labels3.pkl")
+# try:
+#     with open(file_path, 'w+') as f:
+#         test_object = {"test": 123}
+#         pickle.dump(test_object, f)
+# except OSError as e:
+#     print(f"OS error: {e}")
     
 recognizer.train(x_train, np.array(y_labels))
 recognizer.save("trainer.yml")
