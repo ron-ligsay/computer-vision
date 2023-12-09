@@ -33,6 +33,8 @@ for root, dirs, files in os.walk(image_dir):
             #x_train.append(path) # some number
             #y_labels.append(label) # verify this iamge, turn into a NUMPY array. GRAY
             pil_image = Image.open(path).convert("L") # L = grayscale
+            size = (550, 550)
+            final_image = pil_image.resize(size, Image.LANCZOS) # ANTIALIAS are not in new version of Pillow, LANCZOS is the same
             image_array = np.array(pil_image, "uint8")
             # print(image_array)
             faces = face_cascade.detectMultiScale(image_array, scaleFactor=1.5, minNeighbors=5)

@@ -12,3 +12,6 @@ data/dicom/circle_of_willis/
 src/ocr/tesseract-ocr-w64-setup-v4.1.0.20190314.exe
 
 data/haarscascade/*
+projects/face_recognition_and_identification/trainer.yml
+projects/face_recognition_and_identification/desktop.ini
+projects/face_recognition_and_identification/labels.pkl
